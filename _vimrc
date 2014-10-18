@@ -434,6 +434,6 @@ let g:DoxygenToolkit_briefTag_funcName = "no"
 let g:DoxygenToolkit_maxFunctionProtoLines = 30
 
 " BO2目录配置
-if(g:iswindows==1)
-    let g:bo2_initpath="E:\\trunk"
-endif
+" if(g:iswindows==1)
+"     let g:bo2_initpath="E:\\trunk"
+" endif
