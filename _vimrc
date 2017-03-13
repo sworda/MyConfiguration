@@ -109,6 +109,9 @@ else
     set guifont=文泉驿等宽微米黑\ 10
 endif 
 
+" 高亮查找
+set hlsearch
+
 " powerline配置 {
  set guifont=PowerlineSymbols\ for\ Powerline
  " Always show the statusline
