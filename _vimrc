@@ -130,6 +130,13 @@ set ruler
 colorscheme murphy
 set ambiwidth=double 
 
+"设置当前行和列选中状态，这个一定要放在设置颜色和主题后面，不然会被主题给冲掉
+set cursorcolumn                    
+set cursorline                      
+                                    
+highlight CursorLine cterm=NONE ctermbg=darkgray ctermfg=blue guibg=NONE guifg=NONE                                                                                                                                                                                           
+"highlight CursorColumn cterm=NONE ctermbg=NONE ctermfg=gray guibg=NONE guifg=NONE
+
 " 允许退格键删除和tab操作  {{{3
 set smartindent  
 set smarttab
